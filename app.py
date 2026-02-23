@@ -7,7 +7,7 @@ st.title("PAN-Wise NCD Summary Report")
 # 1. LOAD THE MASTER EXCEL FILE (CONTAINING ALL 8 SHEETS MERGED)
 # --------------------------------------------------------------
 
-MASTER_FILE = r"C:\Users\USER\Desktop\NCD_MASTER.xlsx"     # <-- keep your file name here
+MASTER_FILE = "NCD_MASTER.xlsx"     # <-- keep your file name here
 
 try:
     df = pd.read_excel(MASTER_FILE)
